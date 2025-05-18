@@ -1,1 +1,44 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/body.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="container">
+      <h1>Madnessman666</h1>
+      <p>Welcome to my portfolio!</p>
+      <!-- <div class="about-button-wrapper"> -->
+      <a class="px-6 py-3 about-button group" href="#about" >
+        <span class="relative z-10 color-white">About me</span>
+        <span class="absolute top-0 left-0 w-0 h-0.5 borders transition-all duration-300 ease-out group-hover:w-full "></span> <!--  Top -->
+        <span class="absolute bottom-0 right-0 w-0 h-0.5 borders transition-all duration-300 ease-out group-hover:w-full delay-600"></span> <!--  Bottom -->
+        <span class="absolute bottom-0 left-0 w-0.5 h-0 borders transition-all duration-300 ease-out group-hover:h-full delay-900"></span> <!--  Left -->
+        <span class="absolute top-0 right-0 w-0.5 h-0 borders transition-all duration-300 ease-out group-hover:h-full delay-300"></span> <!--  Right -->
+
+      </a>
+      <!-- </div> -->
+    </div>
+    <div id="about" class="h-100">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate developer with a love for creating dynamic and
+          engaging web applications. My journey in web development started with
+          a simple HTML page, and since then, I have honed my skills in
+          various technologies.
+        </p>
+        <p>
+          I enjoy working with JavaScript, React, and Node.js to build
+          interactive user interfaces and robust backend systems. My goal is to
+          continuously learn and improve my skills while contributing to
+          meaningful projects.
+        </p>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
