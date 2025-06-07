@@ -63,6 +63,22 @@ body {
     padding: 20px;
     /* height: 100%; */
 }
+.pr-langs-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+}
+@media screen and (max-width: 768px) {
+    .pr-langs-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 #about {
     display: flex;
     flex-direction: column;
